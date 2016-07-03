@@ -18,8 +18,8 @@
       nextSlide = $('.slide').first();
     }
 
-    currentSlide.fadeOut(600).removeClass('activeSlide');
-    nextSlide.fadeIn(600).addClass('activeSlide');
+    currentSlide.fadeOut(300).removeClass('activeSlide');
+    nextSlide.fadeIn(300).addClass('activeSlide');
 
     var currentDot = $('.activeDot');
     var nextDot = currentDot.next();
@@ -40,8 +40,8 @@
     if(previousSlide.length == 0){
       previousSlide = $('.slide').last();
     }
-    currentSlide.fadeOut(600).removeClass('activeSlide');
-    previousSlide.fadeIn(600).addClass('activeSlide');
+    currentSlide.fadeOut(300).removeClass('activeSlide');
+    previousSlide.fadeIn(300).addClass('activeSlide');
 
     var currentDot = $('.activeDot');
     var previousDot = currentDot.prev();
@@ -55,24 +55,24 @@
   });
 
   $('.dot1').click(function(){
-    $('.activeSlide').fadeOut(600);
-    $('.slide').eq(0).fadeIn(600).addClass('activeSlide');
+    $('.activeSlide').fadeOut(300);
+    $('.slide').eq(0).fadeIn(300).addClass('activeSlide');
 
     $('.activeDot').removeClass('activeDot');
     $('.dot').eq(0).addClass('activeDot');
   });
 
   $('.dot2').click(function(){
-    $('.activeSlide').fadeOut(600);
-    $('.slide').eq(1).fadeIn(600).addClass('activeSlide');
+    $('.activeSlide').fadeOut(300);
+    $('.slide').eq(1).fadeIn(300).addClass('activeSlide');
 
     $('.activeDot').removeClass('activeDot');
     $('.dot').eq(1).addClass('activeDot');
   });
 
   $('.dot3').click(function(){
-    $('.activeSlide').fadeOut(600);
-    $('.slide').eq(2).fadeIn(600).addClass('activeSlide');
+    $('.activeSlide').fadeOut(300);
+    $('.slide').eq(2).fadeIn(300).addClass('activeSlide');
 
     $('.activeDot').removeClass('activeDot');
     $('.dot').eq(2).addClass('activeDot');

@@ -1,0 +1,52 @@
+﻿body{
+  background-color: #DFCFBE;
+}
+.navbar-brand{
+  margin: 0;
+  font-family: 'Black Ops One';
+}
+.tag{
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: black;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+.index{
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: black;
+  overflow: auto;
+  z-index: 1030;
+  font-size: 20px;
+}
+.index h3{
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.index a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 2px;
+}
+.index a.active{
+  color: #337ab7;
+}
+.close{
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+article{
+  background-color: white;
+  margin: 30px 10px 20px 30px;
+}
