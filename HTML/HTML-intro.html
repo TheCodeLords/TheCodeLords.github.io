@@ -13,22 +13,29 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="../JQuery/bootstrap.js"></script>
   <script src="../JQuery/html.js"></script>
-
+  <script src="../JQuery/edit.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
 <title>TheCodeLords | HTML</title>
 </head>
 
-<body>
+<body onload="out()">
 
 <nav class='navbar navbar-inverse navbar-fixed-bottom'>
 <div class='container-fluid'>
   <div class='navbar-header'>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     <h4 class='navbar-brand'>TheCodeLords</h4>
   </div>
+<div class="collapse navbar-collapse" id="Navbar">
   <ul class='nav navbar-nav navbar-right'>
     <li><a href='../index.html'>Home</a></li>
     <li class='active'><a href='#'>HTML</a></li>
   </ul>
+</div>
 </div>
 </nav>
 
@@ -90,7 +97,7 @@
 &lt; !DOCTYPE html &gt;
 &lt; html &gt;
   &lt; head &gt;
-      &lt; title /title &gt;
+      &lt; title &gt; &lt; /title &gt;
   &lt; /head &gt;
 
   &lt; body &gt;
@@ -98,12 +105,30 @@
 &lt; /html &gt;
 </pre>
 </div>
-<div class='col-sm-5 Html'>
 
+<h4>Example</h4>
+
+<div class='col-sm-5'>
+<h5>Code</h5>
+<textarea id="code" readonly>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hypertext Markup Language</title>
+</head>
+<body>
+  <p1>Hello World!</p1>
+</body>
+</html>
+</textarea>
 </div>
-<div class='col-sm-5 output'>
 
+<div class='col-sm-5'>
+<h5>Output</h5>
+<div id="output">
+</div>
 </div>
 </article>
+
 </body>
 </html>
