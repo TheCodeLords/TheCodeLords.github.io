@@ -1,5 +1,5 @@
 ﻿body{
-  background-color: #AF9483;
+  background-color: #838487;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@
   background-color: black;
   overflow: auto;
   z-index: 1030;
-  font-size: 20px;
+  font-size: 16px;
 }
 .index h3{
   padding: 10px;
@@ -53,19 +53,29 @@ article{
   background-color: white;
 }
 .content1{
-  margin: 30px 0 0 0;
+ /* margin: 30px 0 0 0;*/
   padding: 10px;
 }
 .content2{
-  margin: 10px 0 0 0;
+  /*margin: 10px 0 0 0;*/
   padding: 10px;
 }
 .content2 ul{
   list-style-type: none;
 }
 .content3{
-  margin: 10px 0 60px 0;
+  margin-bottom: 60px;
   padding: 10px;
+}
+.content3 .btn-default{
+  background-color: lightgreen;
+  color: black;
+  float: right;
+  margin: 20px;
+}
+.content3 .btn-default:hover{
+  background-color: green;
+  color: white;
 }
 #code{
   resize: none;
@@ -74,7 +84,7 @@ article{
   margin: 2px;
   padding: 10px;
   background-color: #1e2933;
-  color: white;
+  color: gray;
 }
 #output{
   border: 1px solid black;
