@@ -99,3 +99,16 @@ article{
     display: inline;
     }
 }
+.tag-explain{
+  text-align: justify;
+  margin-left: 20px;
+}
+.codingArea{
+  margin-bottom: 60px;
+  border-top: 2px solid gray;
+  background-color: white;
+  z-index: 10;
+}
+.codingArea .row{
+  padding: 10px;
+}
