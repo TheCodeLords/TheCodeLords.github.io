@@ -1,0 +1,158 @@
+﻿<!-- Har Har Mahadev -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='keywords' content='HTML'>
+  <meta name='description' content='Hypertext Markup Language'>
+  <meta name='author' content='Rahul Setpal'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
+  <link rel="stylesheet" href="../CSS/html.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="../JQuery/bootstrap.js"></script>
+  <script src="../JQuery/html.js"></script>
+  <script src="../JQuery/edit.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+<title>TheCodeLords | HTML-headings & Paragraph</title>
+</head>
+
+<body onload="out()">
+
+<nav class='navbar navbar-inverse navbar-fixed-bottom'>
+<div class='container-fluid'>
+  <div class='navbar-header'>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <h4 class='navbar-brand'>TheCodeLords</h4>
+  </div>
+<div class="collapse navbar-collapse" id="Navbar">
+  <ul class='nav navbar-nav navbar-right'>
+    <li><a href='../index.html'>Home</a></li>
+    <li class='active'><a href='#'>HTML</a></li>
+  </ul>
+</div>
+</div>
+</nav>
+
+<div class='tag'>
+<h4>C</h4>
+<h4>O</h4>
+<h4>N</h4>
+<h4>T</h4>
+<h4>E</h4>
+<h4>N</h4>
+<h4>T</h4>
+<h4>S</h4>
+</div>
+
+<div class='index'>
+<h3>HTML Basics</h3>
+<div class='close'><a href="#">&times;</a></div>
+<ol>
+    <li><a href="../HTML/1-HTML-intro.html">Introduction</a></li>
+    <li><a href="../HTML/2-HTML-tags.html">Tags</a></li>
+    <li><a href="../HTML/3-HTML-heading and paragraph.html"  class='active'>Headings and Paragraph</a></li>
+    <a href=""></a>
+</ol>
+</div>
+
+<article class='col-sm-10 col-sm-offset-1' style="background-color: #ff3300; color: white;">
+<h1>HTML</h1>
+<p>Adding Contents...<strong>Headings and Paragraph</strong></p>
+</article>
+
+<article class='col-sm-10 col-sm-offset-1 container' style="padding:10px 10px 20px 10px;">
+<h3>Headings</h3>
+<div class="row">
+<div class="col-sm-10 explain">
+<p>Headings display the most important content. Heading tags are declared from h1 through h6.</p>
+<p>Each of the heading is bold and differ in size.</p>
+<p>Heading tag declaration:</p>
+<ul>
+  <li>&lt; h1 &gt; Heading h1 &lt; /h1 &gt;</li><h1>Heading h1</h1>
+  <li>&lt; h2 &gt; Heading h2 &lt; /h2 &gt;</li><h2>Heading h2</h2>
+  .<br>
+  .<br>
+  .<br>
+  <li>&lt; h6 &gt; Heading h6& lt; /h6 &gt;</li><h6>Heading h6.</h6>
+</ul>
+</div>
+</div>
+
+<hr>
+
+<h3>Paragraph</h3>
+<div class="row">
+<div class="col-sm-10 explain">
+<p>Paragraghs can be added using &lt;p&gt; & &lt;/p&gt; tags.</p>
+<p>Each paragraph is a block element i.e. it takes up the entire width of page.</p>
+<div class="row">
+<div class="col-sm-5 ">
+<h4>The output of ...</h4>
+<div class="example">
+&lt;p&gt;<br> 
+para1<br>
+para2..<br>
+learning html<br>
+&lt;/p&gt;
+</div>
+</div>
+<div class="col-sm-5">
+<h4>Will result in following...</h4>
+<div class="ex-op">
+<p>
+para1
+para2..
+learning html
+</p>
+</div>
+</div>
+</div>
+<p>This is because the browser removes the extra spacing.</p>
+</div>
+</div>
+</article>
+
+<div class="container col-sm-12 codingArea">
+<div class="row">
+<h3>Practice Time.....</h3>
+<h4>Try different headings styles. Add some paragraphs. Edit the code and practice.</h4>
+
+<div class='col-sm-6'>
+<h5>Code</h5>
+<textarea id="code" autocomplete="off" oninput="out()">
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Heading h1</h1>
+    <h2>Heading h2</h2>
+    <h3>Heading h3</h3>
+    <h4>Heading h4</h4>
+    <h5>Heading h5</h5>
+    <h6>Heading h6</h6>
+
+    <br>
+    <p>This is para1</p>
+    <p>This is para2</p>
+    <p>I'm learning HTML.</p>
+  </body>
+</html>
+</textarea>
+</div>
+
+<div class='col-sm-6'>
+<h5>Output</h5>
+<div id="output">
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

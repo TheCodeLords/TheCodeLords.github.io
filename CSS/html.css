@@ -70,7 +70,7 @@ article{
 #code{
   resize: none;
   width: 100%;
-  height: 300px;
+  height: 500px;
   margin: 2px;
   padding: 10px;
   background-color: #1e2933;
@@ -79,7 +79,7 @@ article{
 #output{
   border: 1px solid black;
   width: 100%;
-  height: 300px;
+  height: 500px;
   margin: 2px;
   padding: 10px;
 }
@@ -99,16 +99,25 @@ article{
     display: inline;
     }
 }
-.tag-explain{
+.tag-explain, .explain{
   text-align: justify;
   margin-left: 20px;
 }
 .codingArea{
   margin-bottom: 60px;
   border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
   background-color: white;
   z-index: 10;
 }
 .codingArea .row{
   padding: 10px;
+}
+.example, .ex-op{
+  border: 1px solid black;
+  margin: 1px;
+  padding-left: 5px;
+}
+hr{
+  border: 1px solid black;
 }
