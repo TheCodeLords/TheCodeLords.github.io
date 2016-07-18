@@ -82,6 +82,7 @@ article{
   height: 500px;
   margin: 2px;
   padding: 10px;
+  overflow: auto;
 }
 
 .tagging{
@@ -120,4 +121,8 @@ article{
 }
 hr{
   border: 1px solid black;
+}
+pre{
+  border:none;
+  background-color:white;
 }
